@@ -5,8 +5,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
-
-
+/*
+This takes in address attribute and checks if the user location matches with the office location
+*/
 @Path("/address")
 public class Location {
 
